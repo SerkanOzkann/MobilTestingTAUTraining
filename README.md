@@ -1,1 +1,3 @@
-# MobilTestingTAUTraining
+# MobilTesting TAUTraining
+
+## Test Automation University
