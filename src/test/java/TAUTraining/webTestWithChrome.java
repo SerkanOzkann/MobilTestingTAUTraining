@@ -73,25 +73,7 @@ public class webTestWithChrome {
 
 
 
-//            WebElement urlBar = driver.findElementById("url_bar");
-//            urlBar.sendKeys("https://the-internet.herokuapp.com/login");
-//            Actions action=new Actions(driver);
-//            action.sendKeys(Keys.ENTER);
 
-
-
-//            driver.get("https://the-internet.herokuapp.com/login");
-//            driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
-//            WebElement username = driver.findElementByCssSelector("input#username");
-//            username.sendKeys("tomsmith");
-//            WebElement password = driver.findElementByCssSelector("input#password");
-//            password.sendKeys("SuperSecretPassword!");
-//            WebElement loginBtn = driver.findElementByCssSelector("button.radius");
-//            loginBtn.click();
-//            WebDriverWait wait = new WebDriverWait(driver, 10);
-//            wait.until(ExpectedConditions.urlContains("secure"));
-//            Assert.assertTrue(driver.getCurrentUrl().contains("secure"));
-//            System.out.println(driver.getCurrentUrl());
 
         }
         @AfterTest
